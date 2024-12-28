@@ -34,8 +34,8 @@ function loadNamesOptions(people){
 }
 
 function displayPersonDetails(person) {
-    document.getElementById('age').textContent = person.age;
-    document.getElementById('email').textContent = person.email;
+    document.getElementById('age').innerText = person.age;
+    document.getElementById('email').innerText = person.email;
 }
 window.onload = function() {
     loadPeopleData();
